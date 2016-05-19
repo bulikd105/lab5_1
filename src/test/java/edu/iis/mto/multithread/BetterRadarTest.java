@@ -12,6 +12,7 @@ public class BetterRadarTest
 {
 
 	@Test
+	@Repeat(times = 100000)
 	public void launchPatriotMissle() 
 	{
 		Executor exec = new Executor() 
