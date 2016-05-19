@@ -12,7 +12,7 @@ public class BetterRadarTest
 {
 
 	@Test
-	public void launchPatriot10TimesWhenNoticesAScudMissle() 
+	public void launchPatriotMissle() 
 	{
 		Executor exec = new Executor() 
 		{
